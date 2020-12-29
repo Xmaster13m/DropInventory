@@ -1,0 +1,23 @@
+name: DropInventory
+main: java.me.xmaster13.dropinventory.Main
+description: El plugin cumple con la funcionalidad de que al romper cualquier objeto se le dara directamente
+con la funcionalidad de reducir el lag en el servidor
+author: Xmaster13
+version: 1.0
+api-version: 1.13
+prefix: DropInventory
+database: false
+softdepend:
+  - WorldEdit
+  - WorldGuard
+  - Jobs
+  - CoreProtect
+permissions:
+  dropinv.use:
+    description: Permite el uso de DropInventory
+commands:
+    dropinventory:
+      description: alternar recogida automática de objetos
+      usage: /<command>
+      aliases: dropinv
+      permission: dropinv.use
