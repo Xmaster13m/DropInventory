@@ -1,3 +1,5 @@
+# No terminado
+
 # DropInventory
 Este plugin te permite recolectar items directamente en tu inventario evitando producir un cierto retraso debido a los items en el suelo, además de hornear los minerales de forma automática.
 
